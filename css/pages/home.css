@@ -1,0 +1,226 @@
+@import '../base/base.css';
+@import '../base/layout.css';
+
+.logo {
+    height: 40px;
+    object-fit: contain;
+    object-position: center left;
+}    
+.header-nav {
+    display: flex;
+    gap: 30px;
+}
+.link {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.column-left {
+    width: 45%;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+}
+.description {
+    font-size: 40px;
+    margin-top: 15px;
+}
+.column-left p:last-of-type {
+    font-size: 15px;
+    
+}
+.button {
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 50px;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.column-right {
+    width: 61%;
+}
+.column-right .images {
+    width: 100%;
+    margin-top: 15px;
+}
+.column {
+    text-align: center;
+}
+.content {
+    color: #74c69d;
+    text-transform: uppercase;
+    padding: 16px;
+    font-size: 16px;
+    margin-top: 44px;
+}
+.logo-description {
+    color: #000000;
+    padding: 16px;
+    font-size: 40px;
+}
+.column p:last-of-type {
+    color: #000000;
+    padding: 16px;
+    font-size: 20px;
+    width: 400px;
+}
+.row-social {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items:center;
+}
+.logo-social {
+    height: 40px;
+    object-fit: contain;
+    object-position: center left;
+    justify-content: space-evenly;
+    margin: 45px;
+}
+.learn-button {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 40px;
+    background-color: #000000;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+.container .row-next {
+    background-color: #fff;
+    width: 1440px;
+    height: 550px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 calc(50% - 600px);  
+}
+.images-next {
+    margin-left: 135px;
+}
+.column-row-next {
+    color: #000000;
+    font-size: 27px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+    width: 1250px;
+    margin: 0 calc(50% - 625px);
+
+}
+.next-description {
+    font-size: 15px;
+    margin-block: 25px;
+    line-height: 19px;
+}
+.next-button {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 40px;
+    background-color: #000000;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.container .row-new {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    height: 660px;
+    width: 1440px;
+    margin: 0 calc(50% - 720px);
+    gap: 85px;
+}
+.column-new {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+    font-size: 27px;
+    width: 1440px;
+    margin: 0 calc(50% - 720px);
+    margin-left: 135px;  
+}
+.images-new {
+    margin-right: 130px;
+}
+.new-description {
+    font-size: 15px;
+    margin-block: 25px;
+    line-height: 19px;
+}
+.new-button {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 40px;
+    background-color: #000000;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.row-other {
+    background-color: #fff;
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin: 0 calc(50% - 720px);
+}
+.content-other {
+    color: #74c69d;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    padding: 16px;
+}
+.other-description {
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+}
+.column-other p:last-of-type {
+    color: #000000;
+    padding: 16px;
+    font-size: 20px;
+    line-height: 25px;
+    width: 450px;
+}
+.column-row-other {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    justify-content: center;
+    align-items:center;
+}
+.images-other {
+    height: 300px;
+    object-fit: contain;
+    object-position: center left;
+    justify-content: space-evenly;
+}
+.other-button {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 40px;
+    background-color: #000000;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
