@@ -13,3 +13,12 @@ body {
 .bg-secondary {
     background-color: #74c69d;
 }
+.container {
+    background-color: #74c69d;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 calc(100% - 1440px);
+    width: 1440px;
+}

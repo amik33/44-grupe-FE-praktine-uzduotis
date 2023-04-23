@@ -1,5 +1,6 @@
 @import '../base/base.css';
 @import '../base/layout.css';
+@import '../3rd-party/font-awesome.min.css';
 
 .logo {
     height: 40px;
@@ -82,7 +83,7 @@
     justify-content: space-evenly;
     margin: 45px;
 }
-.learn-button {
+.logo-button {
     color: #fff;
     text-align: center;
     text-decoration: none;
@@ -95,28 +96,28 @@
 }
 
 
+
 .container .row-next {
     background-color: #fff;
     width: 1440px;
     height: 550px;
     display: flex;
+    flex-wrap: wrap;
     align-items:center;
     justify-content: center;
-    margin: 0 calc(50% - 600px);  
-}
-.images-next {
-    margin-left: 135px;
+    margin: 0 calc(50% - 720px);
+      
 }
 .column-row-next {
     color: #000000;
-    font-size: 27px;
+    font-size: 25px;
     display: flex;
     flex-wrap: wrap;
     align-items:center;
     justify-content: space-between;
-    width: 1250px;
-    margin: 0 calc(50% - 625px);
-
+    width: 400px;
+    margin: 0 calc(50% - 620px);
+    
 }
 .next-description {
     font-size: 15px;
@@ -148,7 +149,7 @@
     flex-wrap: wrap;
     align-items:center;
     justify-content: space-between;
-    font-size: 27px;
+    font-size: 25px;
     width: 1440px;
     margin: 0 calc(50% - 720px);
     margin-left: 135px;  
@@ -203,7 +204,7 @@
 .column-row-other {
     display: flex;
     flex-direction: row;
-    gap: 55px;
+    gap: 50px;
     justify-content: center;
     align-items:center;
 }
@@ -223,4 +224,38 @@
     margin-top: 20px;
     border-radius: 5px;
     font-size: 20px;
+}
+.footer-row {
+    background-color: #74c69d;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 calc(50% - 590px);
+    width: 1180px;
+    height: 125px;
+}
+.footer-socials {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+.footer-socials > .social-link {
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+.text-trio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 25px;
 }
