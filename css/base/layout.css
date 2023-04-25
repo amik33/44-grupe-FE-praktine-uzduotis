@@ -3,18 +3,25 @@
     /* background-color:gainsboro; */
     padding: 0;
 }
-.container .color {
+.container .bg-main {
     width: 100%;
-    background-color: #74c69d;
+    background-color: #74c69d; 
 }
 .container > .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
     width: 1180px;
     /* background-color: pink; */
     margin: 0 calc(50% - 590px);
+
 }
 .container > .row-short {
     display: flex;
     flex-direction: column;
+    flex-wrap:wrap ;
     align-items: center;
     gap: 20px;
     width: 1180px;

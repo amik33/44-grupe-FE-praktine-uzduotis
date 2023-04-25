@@ -2,26 +2,70 @@
 @import '../base/layout.css';
 @import '../3rd-party/font-awesome.min.css';
 
-/* .logo {
-    height: 40px;
+.container > .row .header-images {
+    height: 50px;
     object-fit: contain;
     object-position: center left;
-}     */
-/* .header-nav {
-    display: flex;
-    gap: 30px;
-} */
-/* .link {
+    margin: 35px 0;
+}    
+.row > .row-nav .row-link {
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 25px;
     text-decoration: none;
-} */
-/* .column-left {
-    width: 45%;
-    color: #fff;
+    padding: 0 10px;    /* tiktrinti */
+}
+.column {
+    width: 40%;
     text-align: left;
+}
+.column-right {
+    width: 57%;
+    margin-left: auto;
+}
+.column-content {
+    color: #fff;
+    text-transform: uppercase;
+    /* padding: 16px; */
     font-size: 16px;
-} */
+    line-height: 20px;
+    margin-top: 60px;
+}
+.column-description-short {
+    color: #fff;
+    /* padding: 16px; */
+    font-size: 40px;
+    line-height: 50px;
+}
+.column-description {
+    color: #fff;
+    /* padding: 16px; */
+    font-size: 20px;
+    line-height: 25px;
+}
+.container > .row .column-images {
+   display:flex;
+   flex-wrap:wrap;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 68px;
+}
+.column-button {
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 40px;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+
+
 /* .description {
     font-size: 40px;
     margin-top: 15px;
@@ -108,7 +152,7 @@
    flex-direction: row;
    align-items: center;
    justify-content: center;
-   gap: 30px;
+   gap: 10px;
 }
 .button-other {
     color: #fff;
