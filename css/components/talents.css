@@ -1,0 +1,35 @@
+.content-talents {
+    color: #74c69d;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 60px;
+}
+.description-talents-short {
+    font-size: 40px;
+    line-height: 50px;
+}
+.description-talents {
+    font-size: 20px;
+    line-height: 25px;
+}
+.container > .row-short .images-talents {
+   display:flex;
+   flex-wrap:wrap;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 17px;
+}
+.button-talents {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 40px;
+    background-color: #000000;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}

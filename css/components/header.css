@@ -1,0 +1,13 @@
+.container > .row .header-images {
+    height: 50px;
+    object-fit: contain;
+    object-position: center left;
+    margin: 35px 0;
+}    
+.row > .row-nav .row-link {
+    color: #fff;
+    font-size: 20px;
+    line-height: 25px;
+    text-decoration: none;
+    padding: 0 10px;    /* tiktrinti */
+}

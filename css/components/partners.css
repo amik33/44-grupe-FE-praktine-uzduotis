@@ -1,0 +1,37 @@
+.logo-content {
+    color: #74c69d;
+    text-transform: uppercase;
+    /* padding: 16px; */
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 60px;
+}
+.logo-description-short {
+    /* padding: 16px; */
+    font-size: 40px;
+    line-height: 50px;
+}
+.logo-description {
+    /* padding: 16px; */
+    font-size: 20px;
+    line-height: 25px;
+}
+.container > .row-short .logo-social {
+   display:flex;
+   flex-wrap:wrap;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 68px;
+}
+.button-logo {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 40px;
+    background-color: #000000;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}

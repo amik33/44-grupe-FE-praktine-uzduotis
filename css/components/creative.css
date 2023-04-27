@@ -1,0 +1,36 @@
+
+.container > .creative {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1180px;
+    margin: 0 calc(50% - 590px);
+}
+.container > .creative-column {
+    display: flex;
+    flex-direction: column;
+}
+.creative .creative-column-right {
+   width: 50%;
+
+}
+.content-creative {
+    color: #000000;
+    font-size: 40px;
+    line-height: 50px;
+    width: 40%;
+}
+.description-creative {
+    font-size: 18px;
+    line-height: 20px;
+    width: 60%;
+}
+.button-creative {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 40px;
+    background-color: #000000;
+    border-radius: 5px;
+    font-size: 20px;
+}

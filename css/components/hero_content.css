@@ -1,0 +1,37 @@
+.column {
+    width: 40%;
+    text-align: left; 
+}
+.column-right {
+    width: 45%;
+}
+.column-content {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 18px;
+}
+.column-description-short {
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+}
+.column-description {
+    color: #fff;
+    font-size: 15px;
+    line-height: 18px;
+}
+.container > .row .column-images {
+   width: 100%;
+}
+.column-button {
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 40px;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
