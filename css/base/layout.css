@@ -19,15 +19,16 @@
 }
 .container > .row-long {
     display:flex;
-    flex-wrap:wrap;
     flex-direction:row;
     align-items:center;
-    gap: 35px;
-    justify-content: space-between;
+    text-align: center;
+    gap: 115px;
+    justify-content: center;
     width: 1180px;
     height: 480px;
     margin: 0 calc(50% - 590px);
 }
+
 
 @media (max-width: 1180px) {
     .container > .row-short,
