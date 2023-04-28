@@ -1,6 +1,5 @@
-.meeting-title{
+/* .meeting-title{
     width: 1180px;
-    height: 535px;
     display: flex;
     flex-wrap:wrap ;
     gap: 30px;
@@ -8,30 +7,20 @@
     align-items:flex-start;
     justify-content: center;
     margin: 0 calc(50% - 590px);
-}
-.content-meeting {
-    color: #000000;
+} */
+.column-description-short {
+    color: #fff;
     font-size: 40px;
     line-height: 50px;
-    width: 40%;
+   
 }
-.description-meeting {
+column-description {
     font-size: 18px;
     line-height: 20px;
-    width: 40%;
+    padding: 20px 0;
+   
 }
 .container > .images-meeting {
     width: 50%;
  
-}
-.button-meeting {
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    padding: 12px 40px;
-    background-color: #000000;
-    display: inline-block;
-    margin-top: 10px;
-    border-radius: 5px;
-    font-size: 20px;
 }

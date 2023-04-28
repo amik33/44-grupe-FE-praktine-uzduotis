@@ -1,37 +1,17 @@
 
-.container > .creative {
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    text-align: left;
-    gap: 60px;
-    justify-content: center;
-    width: 1180px;
-    height: 480px;
-    margin: 0 100px calc(50% - 590px);
-}
-.container > .creative-column {
-    display: flex;
-    flex-direction: row;
-   
-}
-.creative .creative-column-right {
-   width: 70%;
-
-}
-.content-creative {
+.column-description-short {
     color: #000000;
     font-size: 40px;
     line-height: 50px;
    
 }
-.description-creative {
+.column-description {
     font-size: 18px;
     line-height: 20px;
     padding: 50px 0;
    
 }
-.button-creative {
+.button {
     color: #fff;
     text-decoration: none;
     padding: 12px 40px;

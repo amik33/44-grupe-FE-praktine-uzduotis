@@ -19,7 +19,7 @@
    flex-direction: row;
    align-items: center;
    justify-content: center;
-   gap: 17px;
+   gap: 3px;
 }
 .button-talents {
     color: #fff;
