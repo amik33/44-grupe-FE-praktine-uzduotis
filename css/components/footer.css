@@ -1,9 +1,9 @@
 .container > .row > .footer-socials {
-    padding: 15px; 
+    padding: 25px; 
 }
 .container > .row > .text-trio {
-    padding: 15px;
-}
+    padding: 25px;
+} 
 .footer-socials {
     display: flex;
     gap: 20px;
