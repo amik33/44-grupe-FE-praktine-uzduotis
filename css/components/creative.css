@@ -1,15 +1,12 @@
-
 .column-description-short {
     color: #000000;
     font-size: 40px;
     line-height: 50px;
-   
 }
 .column-description {
     font-size: 18px;
     line-height: 20px;
-    padding: 50px 0;
-   
+    padding: 50px 0; 
 }
 .button {
     color: #fff;
@@ -18,5 +15,5 @@
     background-color: #000000;
     border-radius: 5px;
     font-size: 20px;
-
+    margin-top: 20px;
 }

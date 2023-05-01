@@ -10,8 +10,9 @@
     line-height: 50px;
 }
 .description-talents {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
 }
 .container > .row-short .images-talents {
    display:flex;

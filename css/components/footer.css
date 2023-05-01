@@ -1,15 +1,12 @@
-/* .container .row-footer {
-    background-color: #74c69d;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content:space-between;
-    margin: 0 calc(50% - 590px);
-    width: 1180px;
-} */
+.container > .row > .footer-socials {
+    padding: 15px; 
+}
+.container > .row > .text-trio {
+    padding: 15px;
+}
 .footer-socials {
     display: flex;
-    gap: 18px;
+    gap: 20px;
     flex-wrap: wrap;
     font-size: 18px;
 }

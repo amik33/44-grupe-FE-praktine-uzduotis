@@ -1,26 +1,8 @@
-/* .meeting-title{
-    width: 1180px;
-    display: flex;
-    flex-wrap:wrap ;
-    gap: 30px;
-    flex-direction:column;
-    align-items:flex-start;
-    justify-content: center;
-    margin: 0 calc(50% - 590px);
-} */
-.column-description-short {
-    color: #fff;
+.column-description-short-meeting{
+    color: #000000;
     font-size: 40px;
     line-height: 50px;
-   
-}
-column-description {
-    font-size: 18px;
-    line-height: 20px;
-    padding: 20px 0;
-   
 }
 .container > .images-meeting {
     width: 50%;
- 
 }
